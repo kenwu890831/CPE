@@ -21,15 +21,13 @@ int main() {
         carry = true ;
         count++ ;
       }
-      //printf("%d %d\n", num1, num2 ) ;
-      //printf("%c %c\n", input1[tail1], input2[tail2] ) ;
+
       tail1--;
       tail2--;
       
       
     }
-    
-    //printf("%d .\n", count ) ;
+
     if ( carry ) {
       if ( tail1 >= 0 ) {
         while ( tail1 >= 0 ) {
